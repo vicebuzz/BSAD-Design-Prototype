@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(120deg, #feae8e 0%, #6af1d1 100%);
+    min-height: 100vh;
+  }
+
+body, head {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size: 2rem;
+    padding: 1rem;
+    min-width: 100%;
+    text-align: center;
+  }
+
+.navigation-bar {
+    padding: 10px;
+    background-color: transparent;
+    max-width: 80%;
+    min-height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-button {
+    flex:1;
+    max-width: 70%; 
+    background-color: transparent;
+}
+
+.home-button, .resiliency-button, .application-button, .operate-button {
+    min-height: 25%;
+    max-height: 25%;
+    padding: 1rem;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
