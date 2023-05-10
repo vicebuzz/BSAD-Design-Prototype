@@ -15,4 +15,9 @@ body, head {
 
 header {
     font-size: 2rem;
+    padding: 1rem;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
