@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(120deg, #feae8e 0%, #6af1d1 100%);
+    min-height: 100vh;
+  }
+
+body, head {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size: 2rem;
+  }
