@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RMS</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="navigation-bar">
@@ -17,6 +18,67 @@
             <button class="help-button">Help</button>    
         </div>
         <img src="profile-icon.png" class="profile-icon">
+    </div>
+    <div class="main-screen-container">
+        <div class="left-side-screen-container">
+            <img src="calendar.png" class="calendar-image">
+            <div class="urgent-list">
+                <h2>Urgent!</h2>
+                <div class="urgent-notification">
+                    <h4>5 days due to Application 4 retest period!</h4>
+                </div>
+                <div class="urgent-notification">
+                    <h4>Application 7 was due to retest 1 day ago!</h4>
+                </div>
+                <div class="urgent-notification">
+                    <h4>TRAP document has not yet been submitted for Application 3!</h4>
+                </div>
+                <div class="urgent-notification">
+                    <h4>Report for Resiliency team is ready!</h4>
+                </div>
+                <div class="urgent-notification">
+                    <h4>Your meeting calendar has been updated</h4>
+                </div>
+            </div>
+        </div>
+        <div class="center-screen-container">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search" />
+                <button id="search-icon-button"><i class="fa fa-search"></i></button>
+            </div>
+            <div class="notifications-container">
+                <h2>
+                    Recent Notification
+                </h2>
+                <ul class="notifications-list">
+                    <div class="notification">
+                        <li>Updated Appilication 1 testing records</li>
+                        <img src="profile-icon.png" class="profile-icon-notification">
+                    </div>
+                    <div class="notification">
+                        <li>Attached TRAP document to Applicaiton 6 testing</li>
+                        <img src="profile-icon.png" class="profile-icon-notification">
+                    </div>
+                    <div class="notification">
+                        <li>Updated Appilication 4 records</li>
+                        <img src="profile-icon.png" class="profile-icon-notification">
+                    </div>
+                    <div class="notification">
+                        <li>Operate team member 5 updated testing record for application 6</li>
+                        <img src="profile-icon.png" class="profile-icon-notification">
+                    </div>
+                    <div class="notification">
+                        <li>Operate team member 5 approved TRAP document request for application 1</li>
+                        <img src="profile-icon.png" class="profile-icon-notification">
+                    </div>
+                    <div class="notification">
+                        <li>Resiliency team member uploaded Application 7 records</li>
+                        <img src="profile-icon.png" class="profile-icon-notification">
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="right-side-screen-container"></div>
     </div>
     <div class="main-section"></div>
     <div class="notification-section"></div>
