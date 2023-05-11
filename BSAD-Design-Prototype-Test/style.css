@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    background: linear-gradient(120deg, #feae8e 0%, #6af1d1 100%);
+    min-height: 100vh;
+  }
+
+body, head {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size: 2rem;
+    padding: 1rem;
+    min-width: 100%;
+    text-align: center;
+  }
+/*Nav bar and links*/
+.navigation_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    box-shadow: 0px 0px 10px;
+    height: 66px;
+    background-color: #6590FF;
+    position: relative;
+}
+
+.navigation_bar .logo {
+    float: left;
+}
+
+.navigation_bar li {
+    margin: 0;
+    display: inline-block;
+
+}
+
+.navigation_bar li a {
+    color: black;
+    text-decoration: none;
+    background-color: #DAD9FF;
+}
+
+
+.navigation_bar li:hover a:hover {
+    color: #6590FF;
+    text-decoration: none;
+}
+
+/*Profile button and drop downs*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.profile {
+    background: none;
+    border-style: none;
+    font-size: 1rem;
+    background-color: #DAD9FF;
+
+}
+
+.profile:hover {
+    cursor: pointer;
+    color: #6590FF;
+    border: none;
+}
+
+.drop_down_content {
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop_down_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+/*Shows the dropdown when the button is clicked*/
+.show {
+    display: block;
+}

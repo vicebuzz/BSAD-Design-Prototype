@@ -5,7 +5,8 @@
 }
 
 body {
-    background: linear-gradient(120deg, #feae8e 0%, #6af1d1 100%);
+    /* background: linear-gradient(120deg, #feae8e 0%, #6af1d1 100%); */
+    background-color: #CAD9FF;
     min-height: 100vh;
   }
 
@@ -13,33 +14,166 @@ body, head {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    font-size: 2rem;
-    padding: 1rem;
-    min-width: 100%;
-    text-align: center;
-  }
-
 .navigation-bar {
-    padding: 10px;
-    background-color: transparent;
-    max-width: 80%;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    min-height: 20vh;
     min-height: 10%;
+    min-width: 50%;
+    padding: 0.5rem;
+    font-size: 2rem;
+    background-color: #6590FF;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.home-button {
-    flex:1;
-    max-width: 70%; 
-    background-color: transparent;
-}
-
-.home-button, .resiliency-button, .application-button, .operate-button {
+.home-button, .resiliency-button, .application-button, .operate-button, .help-button {
     min-height: 25%;
     max-height: 25%;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     transition: all 0.3s ease-in-out;
+    background-color: #CAD9FF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-button:hover{
+    background: #000000;
+    color: white;
+}
+
+.resiliency-button:hover {
+    background: #000000;
+    color: white;
+}
+
+.application-button:hover {
+    background: #000000;
+    color: white;
+}
+
+.operate-button:hover {
+    background: #000000;
+    color: white;
+}
+
+.help-button:hover {
+    background: #000000;
+    color: white;
+}
+
+.profile-icon {
+    max-width: 5%;
+    max-height: 5%;
+}
+.calendar-image {
+    margin-top: 0;
+    width: 100%;
+}
+.profile-icon-notification{
+    max-width:5%
+
+}
+
+.main-screen-container {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    min-width: 100%;
+    min-height: 75%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side-screen-container, .right-side-screen-container {
+    min-width: 20%;
+    min-height: 100%;
+    max-width: 15%;
+    max-height: 100%;
+    border-width: 0rem;
+    background-color: transparent;
+}
+
+.center-screen-container {
+    min-width: 50%;
+    min-height: 100%;
+    max-width: 50%;
+    max-height: 100%;
+    border-width: 0rem;
+    background-color: #FAFAFA;
+}
+
+.search-container{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#search-input{
+    min-height: 100%;
+    max-height: 100%;
+    min-width: 95%;
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: transparent;
+}
+
+#search-icon-button{
+    color: black;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 2.75rem;
+    border-width: 0rem;
+}
+
+#search-icon-button:hover {
+    background: #000000;
+    color: white;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notification, .urgent-notification{
+    display: flex;
+    background-color: #E9E9E9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification:hover{
+    transform: scale(1.05);
+}
+
+.urgent-list {
+    margin-top:5px;
+    padding:0.5rem;
+    background-color: #FAFAFA;
+}
+
+.urgent-notification{
+    margin-top:5px;
+}
+
+.urgent-notification:hover{
+    transform: scale(1.05);
 }
