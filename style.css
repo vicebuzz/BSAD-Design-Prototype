@@ -222,7 +222,6 @@ ul {
   transform: scale(1.5);
 }
 
-<<<<<<< HEAD
 *Profile button and drop downs*/
 .dropdown {
     position: relative;
@@ -272,7 +271,7 @@ ul {
 /*Shows the dropdown when the button is clicked*/
 .show {
     display: block;
-=======
+}
 #search-input-resiliency {
   min-height: 100%;
   max-height: 100%;
@@ -304,5 +303,4 @@ ul {
     background-color: #6590FF;
     position: relative;
 
->>>>>>> ce2d2b991bb4ea27ffbac304f744640505a49d28
 }

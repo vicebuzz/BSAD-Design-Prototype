@@ -18,6 +18,7 @@
             <button class="help-button">Help</button>    
         </div>
         <!--Div for the profile dropdown-->
+        <!--Remove generate and create application buttons, the operate team might have to filter differently-->
         <div class="dropdown">
             <img onclick="profile_drop_down()" src="profile-icon.png" class="profile" width= "80px" height="auto">
             <div id="profile_drop_down" class="drop_down_content">
@@ -93,8 +94,11 @@
                     <img src="profile-icon.png" class="profile-icon-notification" onclick=viewUsersAlert()>
                 </div>
                 <div class="interactive-options">
-                    <button id="create-application">Create Application</button>
-                    <button id="generate-reports">Generate Reports</button>
+                    <form action="/action_page.php">
+                        <input type="file" id="myFile" name="filename">
+                        <input type="submit">
+                    </form>
+                    <button id="remove-documents">Remove Files</button>
                 </div>
                 </ul>
             </div>
