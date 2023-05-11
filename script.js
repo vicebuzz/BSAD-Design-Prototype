@@ -12,7 +12,7 @@ function getRandomNumber() {
 
 //Showcase filter options
 function filterButtonAlert() {
-  alert("Available Filter Options:\nPassed Tests\nFailed Tests\nSort by time remaining before retest (asc/desc)\nStaff members allocated");
+  alert("Available Filter Options:\nPassed Tests\nFailed Tests\nSort by time remaining before retest (asc/desc)\nSort by Data Center\nStaff members allocated");
 }
 
 //Showcase viewer list
@@ -34,6 +34,16 @@ function viewUsersAlert() {
   alert("Assigned members:\nApplication Team Member " + appMember1 + "\nApplication Team Member " + appMember2 + "\nOperate Team Member " + oppMember1 + "\nOperate Team Member " + oppMember2);
 }
 
+
+//Showcase Testing Data
+function testDataAlert() {
+  alert("This button will be the testing data attached to the respective application and will include (uploaded by operate member):\nWhen the test was done\nWhere the test was done\nSuccess or Fail\nSource & Target locations\nWhat testing scenario done\nAssociated staff members with testing\nTime taken for test\nCountdown until test period ends")
+}
+
+//
+function createApplicationButton() {
+  alert("Application successfully created")
+=======
 /*Function for toggling between showing and hiding the dropdown content*/
 function profile_drop_down() {
   document.getElementById("profile_drop_down").classList.toggle("show");

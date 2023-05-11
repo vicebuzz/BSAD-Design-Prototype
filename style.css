@@ -222,7 +222,7 @@ ul {
   transform: scale(1.5);
 }
 
-<<<<<<< HEAD
+
 *Profile button and drop downs*/
 .dropdown {
     position: relative;
@@ -272,7 +272,8 @@ ul {
 /*Shows the dropdown when the button is clicked*/
 .show {
     display: block;
-=======
+}
+
 #search-input-resiliency {
   min-height: 100%;
   max-height: 100%;
@@ -281,6 +282,23 @@ ul {
   font-size: 2rem;
   border: none;
   background: transparent;
+}
+
+
+.search-container button {
+  background-color: #6590FF;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.interactive-options button {
+  background-color: #6590FF;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.interactive-options button#generate-reports {
+  float: right;
 }
 
 .center-login-screen-container 
@@ -304,5 +322,4 @@ ul {
     background-color: #6590FF;
     position: relative;
 
->>>>>>> ce2d2b991bb4ea27ffbac304f744640505a49d28
 }
