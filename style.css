@@ -33,9 +33,36 @@ body, head {
     min-height: 25%;
     max-height: 25%;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     transition: all 0.3s ease-in-out;
     background-color: #CAD9FF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-button:hover{
+    background: #000000;
+    color: white;
+}
+
+.resiliency-button:hover {
+    background: #000000;
+    color: white;
+}
+
+.application-button:hover {
+    background: #000000;
+    color: white;
+}
+
+.operate-button:hover {
+    background: #000000;
+    color: white;
+}
+
+.help-button:hover {
+    background: #000000;
+    color: white;
 }
 
 .profile-icon {
@@ -133,6 +160,10 @@ ul {
     align-items: center;
 }
 
+.notification:hover{
+    transform: scale(1.05);
+}
+
 .urgent-list {
     margin-top:5px;
     padding:0.5rem;
@@ -141,4 +172,8 @@ ul {
 
 .urgent-notification{
     margin-top:5px;
+}
+
+.urgent-notification:hover{
+    transform: scale(1.05);
 }
