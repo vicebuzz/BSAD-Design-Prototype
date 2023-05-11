@@ -222,6 +222,58 @@ ul {
   transform: scale(1.5);
 }
 
+
+*Profile button and drop downs*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.profile {
+    background: none;
+    border-style: none;
+    font-size: 1rem;
+    background-color: #DAD9FF;
+
+}
+
+.profile:hover {
+    cursor: pointer;
+    color: #6590FF;
+    border: none;
+}
+
+.drop_down_content {
+    right: 0px;
+    margin-top: 10px;
+    margin-right: 20px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop_down_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.drop_down_content a:hover {
+    background-color: #E9E9E9;
+}
+
+/*Shows the dropdown when the button is clicked*/
+.show {
+    display: block;
+}
+
 #search-input-resiliency {
   min-height: 100%;
   max-height: 100%;
@@ -231,6 +283,7 @@ ul {
   border: none;
   background: transparent;
 }
+
 
 .search-container button {
   background-color: #6590FF;
@@ -246,4 +299,27 @@ ul {
 
 .interactive-options button#generate-reports {
   float: right;
+}
+
+.center-login-screen-container 
+{
+    min-width: 30%;
+    min-height: 20%;   
+    max-width: 30%;
+    max-height: 40%;
+    border-radius: 35px;
+    margin-top:200px;
+    padding: 20px;
+    background-color: #DADADA;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Log-in-fields 
+{
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #6590FF;
+    position: relative;
+
 }
