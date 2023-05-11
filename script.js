@@ -48,7 +48,6 @@ function manageApplication() {
 function createApplicationButton() {
   alert("Application successfully created")
 }
-
 /*Function for toggling between showing and hiding the dropdown content*/
 function profile_drop_down() {
   document.getElementById("profile_drop_down").classList.toggle("show");
