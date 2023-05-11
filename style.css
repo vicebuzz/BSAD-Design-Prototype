@@ -231,3 +231,19 @@ ul {
   border: none;
   background: transparent;
 }
+
+.search-container button {
+  background-color: #6590FF;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.interactive-options button {
+  background-color: #6590FF;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.interactive-options button#generate-reports {
+  float: right;
+}
