@@ -125,7 +125,7 @@ body, head {
 #search-input{
     min-height: 100%;
     max-height: 100%;
-    min-width: 75%;
+    min-width: 90%;
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
@@ -222,6 +222,7 @@ ul {
   transform: scale(1.5);
 }
 
+<<<<<<< HEAD
 *Profile button and drop downs*/
 .dropdown {
     position: relative;
@@ -271,4 +272,37 @@ ul {
 /*Shows the dropdown when the button is clicked*/
 .show {
     display: block;
+=======
+#search-input-resiliency {
+  min-height: 100%;
+  max-height: 100%;
+  min-width: 75%;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: transparent;
+}
+
+.center-login-screen-container 
+{
+    min-width: 30%;
+    min-height: 20%;   
+    max-width: 30%;
+    max-height: 40%;
+    border-radius: 35px;
+    margin-top:200px;
+    padding: 20px;
+    background-color: #DADADA;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Log-in-fields 
+{
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #6590FF;
+    position: relative;
+
+>>>>>>> ce2d2b991bb4ea27ffbac304f744640505a49d28
 }
