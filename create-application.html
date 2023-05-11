@@ -1,0 +1,42 @@
+<div class="create-application">
+  <form id="add_item">
+    <h3 id="add_item">Create Application:</h3>
+    <label>Application ID:</label>
+    <input id="add_application_id" type="text" placeholder="Enter Application ID"><br><br>
+    <label>Application Name:</label>
+    <input id="add_application_name" type="text" placeholder="Enter Application Name"><br><br>
+    <label id="primary-data-center" for="primary-data-center">Primary Data Center:</label>
+    <select name="primary-data-center" id="primary-data-center" form="primary-data-center">
+      <option value="pdc1">Data Center 1</option>
+      <option value="pdc2">Data Center 2</option>
+      <option value="pdc3">Data Center 3</option>
+      <option value="pdc4">Data Center 4</option>
+      <option value="pdc5">Data Center 5</option>
+      <option value="pdc6">Data Center 6</option>
+      <option value="pdc7">Data Center 7</option>
+    </select><br><br>
+    <label id="Secondary-data-center" for="Secondary-data-center">Secondary Data Center:</label>
+    <select name="Secondary-data-center" id="Secondary-data-center" form="Secondary-data-center">
+      <option value="sdc1">Data Center 1</option>
+      <option value="sdc2">Data Center 2</option>
+      <option value="sdc3">Data Center 3</option>
+      <option value="sdc4">Data Center 4</option>
+      <option value="sdc5">Data Center 5</option>
+      <option value="sdc6">Data Center 6</option>
+      <option value="sdc7">Data Center 7</option>
+    </select><br><br>
+    <label>Assign Team Members: </label><br>
+    <input type="checkbox" >Application Member 1</input><br>
+    <input type="checkbox" >Application Member 2</input><br>
+    <input type="checkbox" >Application Member 3</input><br>
+    <input type="checkbox" >Application Member 4</input><br>
+    <input type="checkbox" >Application Member 5</input><br>
+    <input type="checkbox" >Application Member 6</input><br>
+    <input type="checkbox" >Application Member 7</input><br>
+    <input type="checkbox" >Application Member 8</input><br>
+    <input type="checkbox" >Application Member 9</input><br>
+    <input type="checkbox" >Application Member 10</input><br><br>
+    <button id="create-application-button" type="button" onclick=createApplicationButton()>Create Application</button>
+    <button id="go-back-button" type="button" onclick="window.location.href='resiliency.html'">Back to Resiliency Page</button>
+  </form>
+</div>
