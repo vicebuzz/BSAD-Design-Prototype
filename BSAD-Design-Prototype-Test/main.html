@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMS</title>
+    <header>Resiliency Management System</header>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="navigation_bar">
+            <!--Navbar which has the logo, team links, and profile-->
+            <a href="main.html"><img class="logo" src="images/DWK PLC (transparent background).png" alt="logo" height="90px" width="auto"></a>
+            <li><a href="resiliency.html">Resiliency Team</a></li>
+            <li><a href="application.html">Application Team</a></li>
+            <li><a href="operate.html">Operate Team</a></li>
+            <li><a href="#">Help</a></li>
+            <!--Div for the profile dropdown-->
+            <div class="dropdown">
+                <button onclick="profile_drop_down()" class="profile">Profile</button>
+                <div id="profile_drop_down"                 class="drop_down_content">
+                    <a href="Settings">Settings</a>
+                    <a href="Log_out">Log out</a>
+                </div>
+            </div>
+    </div>
+
+    <div class="main_section"></div>
+    <div class="notification_section"></div>
+    <script src="script.js"></script>
+</body>
+</html>
