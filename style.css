@@ -152,7 +152,7 @@ ul {
     margin: 0;
 }
 
-.notification, .urgent-notification, .notification-upcoming, .message{
+.notification, .urgent-notification, .notification-upcoming, .message, .current-app{
     display: flex;
     background-color: #E9E9E9;
     padding: 10px;
@@ -184,7 +184,7 @@ ul {
     transform: scale(1.05);
 }
 
-.urgent-list, .upcoming-container, .messages-container {
+.urgent-list, .upcoming-container, .messages-container, .current-testing{
     margin-top:20px;
     padding-bottom: 5px;
     background-color: transparent;
