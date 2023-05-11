@@ -37,13 +37,18 @@ function viewUsersAlert() {
 
 //Showcase Testing Data
 function testDataAlert() {
-  alert("This button will be the testing data attached to the respective application and will include (uploaded by operate member):\nWhen the test was done\nWhere the test was done\nSuccess or Fail\nSource & Target locations\nWhat testing scenario done\nAssociated staff members with testing\nTime taken for test\nCountdown until test period ends")
+  alert("This button will be the testing data attached to the respective application and will include (uploaded by operate member):\nWhen the test was done\nWhere the test was done\nSuccess or Fail\nSource & Target locations\nWhat testing scenario done\nAssociated staff members with testing\nTime taken for test\nCountdown until test period ends\nTRAP Record")
+}
+
+function manageApplication() {
+  alert("Clicking on applications will show relevant app data:\nID\nName\nPrimary Location\nSecondary Location\n")
 }
 
 //
 function createApplicationButton() {
   alert("Application successfully created")
-=======
+}
+
 /*Function for toggling between showing and hiding the dropdown content*/
 function profile_drop_down() {
   document.getElementById("profile_drop_down").classList.toggle("show");
@@ -61,4 +66,16 @@ window.onclick = function(event) {
           }
       }
   }
+}
+
+function filterButtonReportsAlert() {
+  alert("Filter report selection here:\nApplication Reports:\nBetween two dates\nSort by test dates\nSort by team member\nSort by data center\n\nTesting Reports:\nBetween two dates\nFilter successful\nFilter failed\nSort by testing dates")
+}
+function notificationOptionsReports() {
+  alert("Here you would be given the option to send an alert that will pop up on that team or individuals dasboard related to reports")
+}
+
+function exportReport() {
+  alert("Report successfully exported in CSV format")
+  window.location.href='main.html'
 }

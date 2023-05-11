@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
 <div class="create-application">
   <form id="add_item">
     <h3 id="add_item">Create Application:</h3>
@@ -25,7 +36,7 @@
       <option value="sdc6">Data Center 6</option>
       <option value="sdc7">Data Center 7</option>
     </select><br><br>
-    <label>Assign Team Members: </label><br>
+    <label>Assign Application Team Members: </label><br>
     <input type="checkbox" >Application Member 1</input><br>
     <input type="checkbox" >Application Member 2</input><br>
     <input type="checkbox" >Application Member 3</input><br>
@@ -36,7 +47,20 @@
     <input type="checkbox" >Application Member 8</input><br>
     <input type="checkbox" >Application Member 9</input><br>
     <input type="checkbox" >Application Member 10</input><br><br>
+    <label>Assign Operate Team Members: </label><br>
+    <input type="checkbox" >Operate Member 1</input><br>
+    <input type="checkbox" >Operate Member 2</input><br>
+    <input type="checkbox" >Operate Member 3</input><br>
+    <input type="checkbox" >Operate Member 4</input><br>
+    <input type="checkbox" >Operate Member 5</input><br>
+    <input type="checkbox" >Operate Member 6</input><br>
+    <input type="checkbox" >Operate Member 7</input><br>
+    <input type="checkbox" >Operate Member 8</input><br>
+    <input type="checkbox" >Operate Member 9</input><br>
+    <input type="checkbox" >Operate Member 10</input><br><br>
     <button id="create-application-button" type="button" onclick=createApplicationButton()>Create Application</button>
     <button id="go-back-button" type="button" onclick="window.location.href='resiliency.html'">Back to Resiliency Page</button>
   </form>
+
+  <script src="script.js"></script>
 </div>
