@@ -4,9 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RMS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
+    <div class="navigation-bar">
+        <div>
+            <button class="home-button" onclick="window.location.href = 'main.html';">Home</button>
+            <button class="resiliency-button" onclick="window.location.href = 'resiliency.html';">Resiliency Team</button>
+            <button class="application-button" onclick="window.location.href = 'application.html';">Application Team</button>
+            <button class="operate-button" onclick="window.location.href = 'operate.html';">Operate Team</button>
+            <button class="help-button">Help</button>    
+        </div>
+        <img src="profile-icon.png" class="profile-icon">
+    </div>
+    <div class="main-screen-container">
+        <div class="left-side-screen-container">
+            <img src="calendar.png" class="calendar-image">
+            <div class="urgent-list">
+                <h2 class="section-header">Urgent!</h2>
+                <div class="urgent-notification">
+                    <h4>5 days due to Application 4 retest period!</h4>
+                </div>
+                <div class="urgent-notification">
+                    <h4>Application 7 was due to retest 1 day ago!</h4>
+                </div>
+                <div class="urgent-notification">
+                    <h4>TRAP document has not yet been submitted for Application 3!</h4>
+                </div>
+                <div class="urgent-notification">
+                    <h4>Report for Resiliency team is ready!</h4>
+                </div>
+                <div class="urgent-notification">
+                    <h4>Your meeting calendar has been updated</h4>
+                </div>
+            </div>
+        </div>
+        <div class="center-screen-container">
+            <h2 class="section-header-center">
+                Recent Notification
+            </h2>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search" />
+                <button id="search-icon-button"><i class="fa fa-search"></i></button>
+                <button id="filter-options" onclick=filterButtonAlert()>Select Filter Options</button>
+            </div>
+            
+            <div class="notifications-container">
+                
+                <ul class="notifications-list">
+                  <div class="notification">
+                    <li>Application 1</li>
+                    <i class="fa fa-file-text-o" id="file-icon" style="font-size:36px;"></i>
+                    <img src="profile-icon.png" class="profile-icon-notification" onclick=viewUsersAlert()>
+                </div>
+                <div class="notification">
+                    <li>Application 2</li>
+                    <i class="fa fa-file-text-o" style="font-size:36px;"></i>
+                    <img src="profile-icon.png" class="profile-icon-notification" onclick=viewUsersAlert()>
+                </div>
+                <div class="notification">
+                    <li>Application 3</li>
+                    <i class="fa fa-file-text-o" style="font-size:36px;"></i>
+                    <img src="profile-icon.png" class="profile-icon-notification" onclick=viewUsersAlert()>
+                </div>
+                <div class="notification">
+                    <li>Application 4</li>
+                    <i class="fa fa-file-text-o" style="font-size:36px;"></i>
+                    <img src="profile-icon.png" class="profile-icon-notification" onclick=viewUsersAlert()>
+                </div>
+                <div class="notification">
+                    <li>Application 5</li>
+                    <i class="fa fa-file-text-o" style="font-size:36px;"></i>
+                    <img src="profile-icon.png" class="profile-icon-notification" onclick=viewUsersAlert()>
+                </div>
+                <div class="notification">
+                    <li>Application 6</li>
+                    <i class="fa fa-file-text-o" style="font-size:36px;"></i>
+                    <img src="profile-icon.png" class="profile-icon-notification" onclick=viewUsersAlert()>
+                </div>
+                <div class="interactive-options">
+                    <button id="create-application">Create Application</button>
+                    <button id="generate-reports">Generate Reports</button>
+                </div>
+                </ul>
+            </div>
+        </div>
+        <div class="right-side-screen-container">
+            <div class="upcoming-container">
+                <h2 class="section-header">Upcoming</h2>
+                <ul class="upcoming-list">
+                    <div class="notification-upcoming">
+                        <li>Retest date for Application 4: 3 days</li>
+                    </div>
+                    <div class="notification-upcoming">
+                        <li>Retest date for Application 4: 3 days</li>
+                    </div>
+                    <div class="notification-upcoming">
+                        <li>Retest date for Application 4: 3 days</li>
+                    </div>
+                    <div class="notification-upcoming">
+                        <li>Retest date for Application 4: 3 days</li>
+                    </div>
+                    <div class="notification-upcoming">
+                        <li>Retest date for Application 4: 3 days</li>
+                    </div>
+                    <div class="notification-upcoming">
+                        <li>Retest date for Application 4: 3 days</li>
+                    </div>
+                </ul>
+            </div>
+            <div class="messages-container">
+                <h2 class="section-header">Messages</h2>
+                <ul class="messages-list">
+                    <div class="message">
+                        <li><b>Bob:</b><i>Make sure to submit Application 4 records before tommorow pls!</i></li>
+                    </div>
+                    <div class="message">
+                        <li><b>Tim:</b><i>I am still waiting for your submission of testing records for Application 3!</i></li>
+                    </div>
+                    <div class="message">
+                        <li><b>Bob:</b><i>Just approved your TRAP document request to be attached to Application 6 testing records!</i></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main-section"></div>
+    <div class="notification-section"></div>
+    <script src="script.js"></script>
 </body>
 </html>
