@@ -35,9 +35,10 @@ body, head {
     padding: 1rem;
     font-size: 1.5rem;
     transition: all 0.3s ease-in-out;
-    background-color: #CAD9FF;
+    background-color: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
+    border-width: 0rem;
 }
 
 .home-button:hover{
@@ -69,6 +70,10 @@ body, head {
     max-width: 5%;
     max-height: 5%;
 }
+
+.profile-icon:hover {
+    cursor:pointer;
+}
 .calendar-image {
     margin-top: 0;
     width: 100%;
@@ -86,8 +91,10 @@ body, head {
     min-height: 75%;
     max-width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    padding-top:5px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .left-side-screen-container, .right-side-screen-container {
@@ -100,12 +107,10 @@ body, head {
 }
 
 .center-screen-container {
-    min-width: 50%;
-    min-height: 100%;
-    max-width: 50%;
-    max-height: 100%;
+    width:50%;
+    height: 100%;
     border-width: 0rem;
-    background-color: #FAFAFA;
+    background-color: transparent;
 }
 
 .search-container{
@@ -120,7 +125,7 @@ body, head {
 #search-input{
     min-height: 100%;
     max-height: 100%;
-    min-width: 95%;
+    min-width: 90%;
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
@@ -147,11 +152,14 @@ ul {
     margin: 0;
 }
 
-.notification, .urgent-notification{
+.notification, .urgent-notification, .notification-upcoming, .message{
     display: flex;
     background-color: #E9E9E9;
     padding: 10px;
     margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -164,16 +172,34 @@ ul {
     transform: scale(1.05);
 }
 
-.urgent-list {
-    margin-top:5px;
-    padding:0.5rem;
-    background-color: #FAFAFA;
-}
-
-.urgent-notification{
-    margin-top:5px;
+.notification-upcoming:hover{
+    transform: scale(1.05);
 }
 
 .urgent-notification:hover{
     transform: scale(1.05);
+}
+
+.message:hover{
+    transform: scale(1.05);
+}
+
+.urgent-list, .upcoming-container, .messages-container {
+    margin-top:20px;
+    padding-bottom: 5px;
+    background-color: transparent;
+}
+
+
+.section-header {
+    width:100%;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #6590FF;
+}
+
+.section-header-center {
+    width:100%;
+    font-size: 2rem;
+    text-align: center;
 }
